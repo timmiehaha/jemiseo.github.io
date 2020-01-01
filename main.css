@@ -1,0 +1,148 @@
+@import url(//fonts.googleapis.com/css?family=Titillium+Web:700|Source+Sans+Pro:400);
+
+body {
+  margin: 0;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+  background: black;
+}
+
+main {
+  max-width: 48rem;
+  margin: 0 auto 3rem;
+  padding: 0 2rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #00eaff;
+}
+
+.site-header {
+  display: table;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.site-header .site-title {
+  font-weight: 700;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.instagram {
+  color: transparent;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.githubkittycat {
+  color: white;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  color: white;
+  background-color: white;
+}
+
+.post {
+  margin-top: 3rem;
+  position: relative;
+}
+
+p {
+  text-align: start;
+}
+
+.langsicon {
+  height: 60px;
+  width: 60px;
+}
+
+.progic {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.progic .tooltiptext {
+  margin: auto;
+  visibility: hidden;
+  background-color: #838383;
+  color: #fff;
+  padding: 2px 5px 2px 5px;
+  border-radius: 6px;
+
+  position: absolute;
+  z-index: 1;
+
+  bottom: 110%;
+  left: 50%;
+  -webkit-transform: translateX(-50%); /* Safari iOS */
+  transform: translateX(-50%);
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.progic:hover .tooltiptext {
+  visibility: visible;
+}
+
+.project {
+  display: inline-block;
+  background-color: gray;
+  width: 360px;
+  border-radius: 6px;
+  margin: 5px;
+  text-align: center;
+  padding: 5px;
+  vertical-align: top;
+}
+
+.projimg {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.projtitle {
+  font-size: 25px;
+}
+
+.email {
+  color: white;
+}
+
+.projectname {
+  float: left;
+}
+
+.resume {
+  color: white;
+}
